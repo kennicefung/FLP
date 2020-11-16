@@ -11,8 +11,8 @@ import {
 const MainNavBar = () => {
     return(
       <div className="App">
-        <Navbar collapseOnSelect expand="xl" bg="danger" variant="dark">
-          <Navbar.Brand href="/">Financial Life Planner</Navbar.Brand>
+        <Navbar collapseOnSelect expand="xl">
+          <Navbar.Brand href="/"><img src="/hsbc.svg" width="85" height="85" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
@@ -22,6 +22,7 @@ const MainNavBar = () => {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+        
       </div>
     )
 }
